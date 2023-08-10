@@ -5,7 +5,7 @@ namespace Customer.Microservice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CustomersController : ControllerBase
+    public class CustomerController : ControllerBase
     {
         private static List<Customer> _customers = new List<Customer>
         {

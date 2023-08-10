@@ -24,6 +24,7 @@ namespace Product.Microservice.Controllers
         {
             return Ok(_products);
         }
+        
        
     }
     public class Product
